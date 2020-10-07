@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -28,13 +27,8 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^4.3.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.5",
-    "enzyme-to-json": "^3.6.1",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "^3.0.2",
-    "jest": "^26.5.0",
-    "jest-enzyme": "^7.1.2",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.11.3",
     "moment": "^2.29.0",
@@ -48,14 +42,21 @@
     "react-modal": "^3.11.2",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-test-renderer": "^16.13.1",
     "redux": "^4.0.5",
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "uuid": "^8.3.0",
     "validator": "^13.1.17",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "jest": "^26.5.0",
+    "jest-enzyme": "^7.1.2",
+    "react-test-renderer": "^16.13.1",
     "webpack-dev-server": "^3.11.0"
   }
 }
