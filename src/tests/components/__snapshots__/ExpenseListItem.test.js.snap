@@ -5,12 +5,14 @@ exports[`Should render ExpenseListItem with fixture data 1`] = `
   <Link
     to="/edit/3"
   >
-    Credit Card
+    <h3>
+      Credit Card
+    </h3>
   </Link>
   <p>
-    4500
-     - 
-    345600000
+    $45.00
+     -
+    January 4th, 1970
   </p>
 </div>
 `;
